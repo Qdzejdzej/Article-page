@@ -1,9 +1,61 @@
 doctype html
 html
   head
-      meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
-      link(rel='stylesheet', type="text/css", href='../css/main.css')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', type='text/css', href='../css/main.css')
 
   body
+    .container
+      section 
+        .tile.is-ancestor
+          .tile.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.
+              p Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.
+        
+          .tile.is-4.is-vertical.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+            
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       
+      nav
+        .tabs.is-toggle.is-uppercase
+          ul
+            li
+              a News  
+            li.is-active
+              a Sport
+            li
+              a Interviews
+
+      section 
+        .tile.is-ancestor
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.
+        
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          
+        .tile.is-ancestor
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.
+        
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+          
+          .tile.is-4.is-parent
+            .tile.is-child.box
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                    
     script(src='../js/main.min.js')
